@@ -1,0 +1,24 @@
+{
+	"name": "programming_challenges",
+	"version": "1.0.0",
+	"description": "Programming challenges",
+	"author": "LeoMSSilva",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"challenge1": "node ./desafio1/desafio1.js",
+		"challenge2": "node ./desafio2/desafio2.js",
+		"challenge3": "node ./desafio3/desafio3.js",
+		"test": "jest --silent"
+	},
+	"dependencies": {
+		"readline-sync": "^1.4.10"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.5",
+		"@babel/preset-env": "^7.16.11",
+		"babel-jest": "^27.5.1",
+		"jest": "^27.5.1"
+	},
+	"type": "module"
+}
